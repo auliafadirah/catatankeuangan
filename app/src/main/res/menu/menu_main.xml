@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="medantechno.com.catatankeuanganok.MainActivity">
+    <item
+        android:id="@+id/action_tambah"
+        android:orderInCategory="100"
+        android:title="Tambah Transaksi"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_history"
+        android:orderInCategory="100"
+        android:title="History Transaksi"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_laporan"
+        android:orderInCategory="100"
+        android:title="Laporan Transaksi"
+        app:showAsAction="never" />
+</menu>
